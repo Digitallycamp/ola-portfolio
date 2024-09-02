@@ -178,7 +178,7 @@ header .hero-left a {
 	padding-top: 64px;
 }
 .about-right img {
-	border: 1px solid gray;
+	/* border: 1px solid gray; */
 }
 .features-projects {
 	padding-top: 120px;
@@ -309,6 +309,7 @@ footer .right .bookmark p {
 	}
 	header .hero-right img {
 		width: 100%;
+		border: none;
 	}
 	.process .process-tools {
 		flex-wrap: wrap;

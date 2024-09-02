@@ -15,6 +15,7 @@
 			rel="stylesheet"
 			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
 		/>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 	</head>
 	<body>
 		<nav id="gototop">
@@ -31,7 +32,17 @@
 				<span class="material-symbols-outlined"> menu </span>
 			</div>
 		</nav>
-		<header>
+		<header
+			class="about-right"
+			data-aos="zoom-in"
+			data-aos-offset="200"
+			data-aos-delay="20"
+			data-aos-duration="600"
+			data-aos-easing="ease-in-out"
+			data-aos-mirror="true"
+			data-aos-once="false"
+			data-aos-anchor-placement="top-center"
+		>
 			<div class="hero-left">
 				<h1><span>Hello,</span> I am Choice</h1>
 				<p>
@@ -123,14 +134,35 @@
 					</p>
 					<a href="https://www.behance.net/olahchoice">Check out my work</a>
 				</div>
-				<div class="about-right">
+				<div
+					class="about-right"
+					data-aos="fade-left"
+					data-aos-offset="200"
+					data-aos-delay="20"
+					data-aos-duration="600"
+					data-aos-easing="ease-in-out"
+					data-aos-mirror="true"
+					data-aos-once="false"
+					data-aos-anchor-placement="top-center"
+				>
 					<img
 						src="./assets/images/olah-picture.png"
 						alt="Ola choice UIUX design from DVA"
 					/>
 				</div>
 			</section>
-			<section class="features-projects" id="featured">
+			<section
+				class="features-projects"
+				id="featured"
+				data-aos="fade-up"
+				data-aos-offset="200"
+				data-aos-delay="20"
+				data-aos-duration="600"
+				data-aos-easing="ease-in-out"
+				data-aos-mirror="true"
+				data-aos-once="false"
+				data-aos-anchor-placement="top-center"
+			>
 				<div class="marque">
 					<h3>FEATURED PROJECTS <span></span></h3>
 					<h3>FEATURED PROJECTS <span></span></h3>
@@ -224,5 +256,10 @@
 				</div>
 			</div>
 		</footer>
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>
